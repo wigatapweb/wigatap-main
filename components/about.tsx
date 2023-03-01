@@ -9,9 +9,9 @@ const About = () => {
     </h2>
     <div className="flex flex-wrap justify-center">
     <img
-        src="founder.JPG"
-        className="h-auto w-full rounded-lg shadow-none transition-shadow duration-300 ease-in-out hover:shadow-lg hover:shadow-black/30"
-        alt="" />
+    src="founder.JPG"
+    className="h-auto max-w-full"
+    alt="..." />
         <em className='text-sm text-slate-500'>Rev Gyima Boafo</em>
     </div>
     <p className='text-center mt-4'>At the outset, the primary vision of the charity foundation was to extend a helping hand to the less privileged and orphaned children by providing them with access to educational resources. The ultimate goal was to address the significant disparities in education in Ghana and promote a more equitable distribution of opportunities for young people. The foundation recognized the critical role that access to educational materials plays in this regard, as it can significantly influence students' academic performance and future prospects.</p>
