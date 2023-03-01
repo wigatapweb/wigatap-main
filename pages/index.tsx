@@ -6,6 +6,7 @@ import Image from 'next/image'
 import Article from "../components/articles";
 import Donors from "../components/donors";
 import Link from "next/link";
+import About from "../components/about";
 
 const Home: NextPage = () => {
   return (
@@ -108,7 +109,7 @@ const Home: NextPage = () => {
                         <img
                           alt="gallery"
                           className="block h-full w-full rounded-lg object-cover object-center"
-                          src="/photo1.JPG" />
+                          src="/donation-3.jpg" />
                       </div>
                     </div>
                     <div className="flex w-1/3 flex-wrap">
@@ -153,10 +154,11 @@ const Home: NextPage = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="grid justify-center mt-4">
-                  <Link href={'/'}>View more</Link>
-                </div> */}
+                <div className="grid justify-center mt-4">
+                  <Link href={'/gallery'} className='text-green-400'>View more photos</Link>
+                </div>
               </section>
+              <About />
           </section>
         </Container>
       </Layout>
