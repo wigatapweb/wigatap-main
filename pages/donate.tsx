@@ -22,6 +22,9 @@ const Donate = () => {
               <div className="mt-4">
                 <div className="flex justify-center"><span className="bg-black text-white w-8 h-8 flex justify-center items-center rounded-full">2</span></div>
                 <h3 className="font-semibold">Donate by check or bank transfer</h3>
+                <p className="mt-2 font-medium">Account Number (Eco Bank)</p>
+                <span>0163074529441901</span>
+                <span className="mt-2 block">Swift Code: ECOCGHAC</span>
               </div>
             </div>
             <div className="lg:mb-0">

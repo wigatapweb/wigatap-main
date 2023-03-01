@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import Image from 'next/image'
 import Article from "../components/articles";
 import Donors from "../components/donors";
+import Link from "next/link";
 
 const Home: NextPage = () => {
   return (
@@ -62,8 +63,100 @@ const Home: NextPage = () => {
             
               </div>
               <Donors />
- 
+              {/* <section>
+                <h2 className="mb-4 text-center text-3xl md:text-7xl font-bold tracking-tighter leading-tight">
+                Gallery
+                </h2> 
+                <div className="container mx-auto px-4"> 
+                  <section className="py-2 px-4">
+                    <div className="flex flex-wrap -mx-4">
+                      <div className="hidden md:block md:w-1/2 px-4">
+                        <div className="h-full w-full bg-cover rounded shadow-md bg-[url('/logo.JPG')]" 
+                        >
+                        </div>
+                      </div>
+                      <div className="md:w-1/2 h-auto px-4">
+                        <div className="mb-8"><img className="rounded shadow-md" src="/photo5.JPG" alt=""/></div>
+                        <div><img className="rounded shadow-md" src="/photo4.JPG" alt=""/></div>
+                      </div>
+                    </div>
+                  </section>
+                            
+                  <section className="py-8 px-4">
+                    <div className="flex flex-wrap -mx-4">
+                      <div className="md:w-1/2 px-4 mb-8 md:mb-0"><img className="rounded shadow-md" src="/photo2.JPG" alt=""/></div>
+                      <div className="md:w-1/2 px-4 mb-8 md:mb-0">
+                        <img className="rounded shadow-md" src="/photo1.JPG" alt="" />
+                        </div>
+                    </div>
+                  </section>
+                  <div className='grid justify-center'>
+                    <Link href="/" className='' >View more</Link>
+                  </div>
+                </div>
+                
+              </section> */}
             </div>
+              <section className="overflow-hidden text-neutral-700">
+              <h2 className="mb-4 text-center text-3xl md:text-7xl font-bold tracking-tighter leading-tight">
+                Gallery
+                </h2> 
+                <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
+                  <div className="-m-1 flex flex-wrap md:-m-2">
+                    <div className="flex w-1/3 flex-wrap">
+                      <div className="w-full p-1 md:p-2">
+                        <img
+                          alt="gallery"
+                          className="block h-full w-full rounded-lg object-cover object-center"
+                          src="/photo1.JPG" />
+                      </div>
+                    </div>
+                    <div className="flex w-1/3 flex-wrap">
+                      <div className="w-full p-1 md:p-2">
+                        <img
+                          alt="gallery"
+                          className="block h-full w-full rounded-lg object-cover object-center"
+                          src="/photo2.JPG" />
+                      </div>
+                    </div>
+                    <div className="flex w-1/3 flex-wrap">
+                      <div className="w-full p-1 md:p-2">
+                        <img
+                          alt="gallery"
+                          className="block h-full w-full rounded-lg object-cover object-center"
+                          src="photo5.JPG" />
+                      </div>
+                    </div>
+                    <div className="flex w-1/3 flex-wrap">
+                      <div className="w-full p-1 md:p-2">
+                        <img
+                          alt="gallery"
+                          className="block h-full w-full rounded-lg object-cover object-center"
+                          src="photo4.JPG" />
+                      </div>
+                    </div>
+                    <div className="flex w-1/3 flex-wrap">
+                      <div className="w-full p-1 md:p-2">
+                        <img
+                          alt="gallery"
+                          className="block h-full w-full rounded-lg object-cover object-center"
+                          src="photo3.JPG" />
+                      </div>
+                    </div>
+                    <div className="flex w-1/3 flex-wrap">
+                      <div className="w-full p-1 md:p-2">
+                        <img
+                          alt="gallery"
+                          className="block h-full w-full rounded-lg object-cover object-center"
+                          src="photo7.JPG" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* <div className="grid justify-center mt-4">
+                  <Link href={'/'}>View more</Link>
+                </div> */}
+              </section>
           </section>
         </Container>
       </Layout>
