@@ -6,7 +6,8 @@ import Image from 'next/image'
 import Article from "../components/articles";
 import Donors from "../components/donors";
 import Link from "next/link";
-import About from "../components/about";
+import About from "./about";
+import Tour from "../components/tour";
 
 const Home: NextPage = () => {
   return (
@@ -64,39 +65,6 @@ const Home: NextPage = () => {
             
               </div>
               <Donors />
-              {/* <section>
-                <h2 className="mb-4 text-center text-3xl md:text-7xl font-bold tracking-tighter leading-tight">
-                Gallery
-                </h2> 
-                <div className="container mx-auto px-4"> 
-                  <section className="py-2 px-4">
-                    <div className="flex flex-wrap -mx-4">
-                      <div className="hidden md:block md:w-1/2 px-4">
-                        <div className="h-full w-full bg-cover rounded shadow-md bg-[url('/logo.JPG')]" 
-                        >
-                        </div>
-                      </div>
-                      <div className="md:w-1/2 h-auto px-4">
-                        <div className="mb-8"><img className="rounded shadow-md" src="/photo5.JPG" alt=""/></div>
-                        <div><img className="rounded shadow-md" src="/photo4.JPG" alt=""/></div>
-                      </div>
-                    </div>
-                  </section>
-                            
-                  <section className="py-8 px-4">
-                    <div className="flex flex-wrap -mx-4">
-                      <div className="md:w-1/2 px-4 mb-8 md:mb-0"><img className="rounded shadow-md" src="/photo2.JPG" alt=""/></div>
-                      <div className="md:w-1/2 px-4 mb-8 md:mb-0">
-                        <img className="rounded shadow-md" src="/photo1.JPG" alt="" />
-                        </div>
-                    </div>
-                  </section>
-                  <div className='grid justify-center'>
-                    <Link href="/" className='' >View more</Link>
-                  </div>
-                </div>
-                
-              </section> */}
             </div>
               <section className="overflow-hidden text-neutral-700">
               <h2 className="mb-4 text-center text-3xl md:text-7xl font-bold tracking-tighter leading-tight">
@@ -158,7 +126,22 @@ const Home: NextPage = () => {
                   <Link href={'/gallery'} className='text-green-400'>View more photos</Link>
                 </div>
               </section>
-              <About />
+              <Tour />
+              <section>
+                <div>
+                  <h2 className="mb-4 mt-8 text-center text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
+                    Founder's Story
+                  </h2>
+                  <div className="flex justify-center items-center flex-col">
+                    <img
+                    src="founder.JPG"
+                    className="h-auto max-w-full block"
+                    alt="..." />
+                    <em className='text-sm text-slate-500'>Rev Dr Boafo Yaw Sarfo</em>
+                  </div>
+                  <p className='text-center mt-2'>The Wigatap Foundation originated from Reverend Boafo's Prophet Ministries. With a vision to distribute educational and Biblical resources to the less privileged in Ghanaian society, Reverend Boafo was moved with passion and drive to reach out to school children who are unable to afford the basic educational resources. Thus, after careful consideration, he established the non-profit organization known as the Wigatap Foundation, an acronym for "With God All Things Are Possible."</p>
+                </div>
+              </section>
           </section>
         </Container>
       </Layout>
