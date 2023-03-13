@@ -10,6 +10,7 @@ import About from "./about";
 import Tour from "../components/tour";
 import Photos from "../components/submitBtn";
 import ResponsiveImageWithText from "../components/exp";
+import Slideshow from "../components/intro";
 
 const callouts = [
   {
@@ -31,7 +32,8 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <Container>
-          <Intro />
+          <Slideshow />
+          {/* <Intro /> */}
           <Article />
           <section>
             <h2 className="mb-4 text-center text-5xl md:text-7xl font-bold tracking-tighter leading-tight">

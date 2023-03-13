@@ -82,7 +82,7 @@ export default function Photos() {
 
               <a
                 href="#"
-                className="inline-block rounded-md border border-transparent bg-green-600 shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out py-3 px-8 text-center font-medium text-white"
+                className="inline-block rounded-md border border-transparent bg-green-600 shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out py-2 px-6 text-center font-medium text-white"
               >
                 See more photos
               </a>
