@@ -15,7 +15,7 @@ const callouts = [
     },
     {
       name: 'Waterfall',
-      description: 'The quick brown fox jumped over the lazy dog the quick brown fox jumped over the lazy dog the quick brown fox jumped over the lazy the quick brown fox jumped over the lazy dog the quick',
+      description: 'Experience the awe-inspiring beauty of nature on a thrilling trek to the majestic Kintampo Waterfall in Ghana, where the cascading waters tumble down a series of rocky steps, creating a mesmerizing sight and a refreshing misty breeze that invigorates hikers along the way.',
       imageSrc: '/tour/waterfall.jpg',
       imageAlt: 'The magnificent waterfall in Ghana.',
     },
