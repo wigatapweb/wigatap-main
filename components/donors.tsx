@@ -1,9 +1,8 @@
 import Link from 'next/link'
-import Container from './container'
 
 const Donors = () => {
   return (
-    <div>
+    <div className='md:my-24 bg-gray-100 py-6 mt-12'>
     <h2 className="mb-4 text-center text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
       Our Donors
     </h2>
