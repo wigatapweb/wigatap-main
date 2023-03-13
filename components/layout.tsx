@@ -11,7 +11,7 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <div className="">
-        <Alert preview={preview} />
+        {/* <Alert preview={preview} /> */}
         <main>
           {children}
         </main>
