@@ -8,7 +8,7 @@ import Donors from "../components/donors";
 import Link from "next/link";
 import About from "./about";
 import Tour from "../components/tour";
-import Photos from "../components/submitBtn";
+import Photos from "../components/gallery";
 import ResponsiveImageWithText from "../components/exp";
 import Slideshow from "../components/intro";
 
@@ -37,7 +37,7 @@ const Home: NextPage = () => {
           <Article />
           <section>
             <h2 className="mb-4 text-center text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-              Why You May Donate
+              Make a Donation With Us And <br /> Touch Lives
             </h2>
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-2 lg:gap-x-6 lg:space-y-0">
               {callouts.map((callout) => (
@@ -141,7 +141,7 @@ const Home: NextPage = () => {
                   <em className='md:hidden text-sm text-slate-500 mt-1'>Rev Dr Boafo Yaw Sarfo</em>
                 </div>
                   <div>
-                    <p className='text-center mt-2'>The Wigatap Foundation originated from Rev. Boafo's Prophet Ministries. With a vision to distribute educational and Biblical resources to the less privileged in Ghanaian society, he was moved with passion and drive to reach out to school children who are unable to afford the basic educational resources. Thus, after careful consideration, he established the non-profit organization known as the Wigatap Foundation, an acronym for "With God All Things Are Possible."</p>
+                    <p className='text-center mt-2'>The Wigatap Foundation originated from Rev. Prophet Boafo's Ministry. With a vision to distribute educational and Biblical resources to the less privileged in Ghanaian society, he was moved with passion and drive to reach out to school children who are unable to afford the basic educational resources. Thus, after careful consideration, he established the non-profit organization known as the Wigatap Foundation, an acronym for "With God All Things Are Possible."</p>
                   </div>
                 </div>
               </section>

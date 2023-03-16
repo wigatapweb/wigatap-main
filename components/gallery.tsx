@@ -8,7 +8,7 @@ export default function Photos() {
               Gallery
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              We tend to take photos of almost every event that we undertake. Feel free and look at the work we've done over the years.
+              We take photos of almost every event that we undertake. Feel free and look at the work we've done over the years.
             </p>
           </div>
           <div>
@@ -79,7 +79,7 @@ export default function Photos() {
               </div>
 
               <a
-                href="#!"
+                href="/gallery"
                 className="inline-block rounded-md border border-transparent bg-green-600 shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out py-2 px-6 text-center font-medium text-white"
               >
                 See more photos

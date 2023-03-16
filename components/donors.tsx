@@ -28,7 +28,7 @@ const Donors = () => {
         <span className='tex-orange-400'>¢700/Month</span>
       </div>
     </div>
-    <p className='text-center'>Our donors are very incredible at what their doing in the hope that one day, a kid, who cannot afford basic educational needs get the opportunity to become a meaningful member of our society.</p>
+    <p className='text-center'>Our donors are very incredible at what they do and they hope that one day, a kid, who cannot afford basic educational needs get the opportunity to become a meaningful member of our society.</p>
     <div className='flex justify-center mt-6'>
         <Link className="inline-block px-7 py-3 md:mb-0 mr-0 md:mr-2 bg-green-600 text-white font-medium text-sm leading-snug rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="/donate" role="link">Join our Donors</Link>
     </div>
