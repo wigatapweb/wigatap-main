@@ -38,7 +38,7 @@ export default function Header() {
                   {/* LOGO */}
                   <a href="/">
                     <img
-                      className="block h-12 w-auto lg:hidden"
+                      className="block h-14 w-auto lg:hidden"
                       src={'/logo.JPG'}
                       alt="Your Company"
                     />

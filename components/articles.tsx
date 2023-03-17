@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Article = () => {
   return (
     <section>
-    <div className="md:grid md:grid-cols-2 md:gap-x-16 lg:gap-x-8 mb-8 md:mb-28">
+    <div className="md:grid md:grid-cols-3 md:gap-x-16 lg:gap-x-8 mb-8 md:mb-28">
       <div>
         <div className="flex items-center">
           </div>

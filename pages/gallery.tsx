@@ -3,31 +3,101 @@ import Layout from "../components/layout"
 const products = [
   {
     id: 1,
-    name: 'Earthen Bottle',
-    href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    description: '',
+    href: '#!',
+    imageSrc: '/morePhotos/donation-1.JPG',
+    imageAlt: 'Reverend Boafo donating an item',
   },
   {
     id: 2,
-    name: 'Nomad Tumbler',
-    href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    description: '',
+    href: '#!',
+    imageSrc: '/morePhotos/donation-2.JPG',
+    imageAlt: 'Wigatap foundation donation',
   },
   {
     id: 3,
-    name: 'Focus Paper Refill',
-    href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    description: '',
+    href: '#!',
+    imageSrc: '/morePhotos/donation-3.JPG',
+    imageAlt: 'Books donation',
   },
   {
     id: 4,
-    name: 'Machined Mechanical Pencil',
-    href: '#',
-    imageSrc: 'https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    description: '',
+    href: '#!',
+    imageSrc: '/morePhotos/pastorial.JPG',
+    imageAlt: 'Reverend Boafo',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/morePhotos/donation-4.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/morePhotos/donation-5.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/photo1.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/photo2.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/photo3.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/photo4.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/photo5.JPG',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/donation-1.jpg',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/donation-2.jpg',
+    imageAlt: '',
+  },
+  {
+    id: 4,
+    description: '',
+    href: '#!',
+    imageSrc: '/donation-3.jpg',
+    imageAlt: '',
   },
   // More products...
 ]
@@ -49,13 +119,12 @@ export default function MorePhotos() {
                   className="h-full w-full object-cover object-center group-hover:opacity-75"
                 />
               </div>
-              <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3>
+              {/* <h3 className="mt-4 text-sm text-gray-700">{product.name}</h3> */}
             </a>
           ))}
         </div>
       </div>
     </div>
   </Layout>
-
   )
 }

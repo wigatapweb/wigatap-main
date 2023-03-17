@@ -8,7 +8,7 @@ export default function Photos() {
               Gallery
             </h1>
             <p className="mt-4 text-xl text-gray-500">
-              We take photos of almost every event that we undertake. Feel free and look at the work we've done over the years.
+              We take photos of almost every event that we undertake. Feel free to look at the work we've done over the years.
             </p>
           </div>
           <div>

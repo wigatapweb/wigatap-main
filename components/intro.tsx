@@ -26,7 +26,7 @@ const Intro = () => {
           <div className="container mx-auto xl:px-32">
             <div className="grid lg:grid-cols-2 gap-6 items-center">
               <div className="lg:mt-0">
-                <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-2">We aim to empowering students in communities with limited resources</h1>
+                <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold tracking-tight mb-2">We aim to empower students in communities with limited resources</h1>
               </div>
               <div className="mb-12 lg:mb-0">
                 <img

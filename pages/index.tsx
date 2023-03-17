@@ -33,7 +33,6 @@ const Home: NextPage = () => {
       <Layout>
         <Container>
           <Slideshow />
-          {/* <Intro /> */}
           <Article />
           <section>
             <h2 className="mb-4 text-center text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
@@ -59,69 +58,8 @@ const Home: NextPage = () => {
                 </div>
               ))}
             </div>
-            {/* <ResponsiveImageWithText /> */}
               <Donors />
               <Photos />
-              {/* <section className="overflow-hidden text-neutral-700">
-              <h2 className="mb-4 text-center text-3xl md:text-7xl font-bold tracking-tighter leading-tight">
-                Gallery
-                </h2> 
-                <div className="container mx-auto py-2 lg:px-32 lg:pt-12">
-                  <div className="-m-1 flex flex-wrap md:-m-2">
-                    <div className="flex w-1/3 flex-wrap">
-                      <div className="w-full p-1 md:p-2">
-                        <img
-                          alt="gallery"
-                          className="block h-full w-full rounded-lg object-cover object-center"
-                          src="/donation-3.jpg" />
-                      </div>
-                    </div>
-                    <div className="flex w-1/3 flex-wrap">
-                      <div className="w-full p-1 md:p-2">
-                        <img
-                          alt="gallery"
-                          className="block h-full w-full rounded-lg object-cover object-center"
-                          src="/photo2.JPG" />
-                      </div>
-                    </div>
-                    <div className="flex w-1/3 flex-wrap">
-                      <div className="w-full p-1 md:p-2">
-                        <img
-                          alt="gallery"
-                          className="block h-full w-full rounded-lg object-cover object-center"
-                          src="photo5.JPG" />
-                      </div>
-                    </div>
-                    <div className="flex w-1/3 flex-wrap">
-                      <div className="w-full p-1 md:p-2">
-                        <img
-                          alt="gallery"
-                          className="block h-full w-full rounded-lg object-cover object-center"
-                          src="photo4.JPG" />
-                      </div>
-                    </div>
-                    <div className="flex w-1/3 flex-wrap">
-                      <div className="w-full p-1 md:p-2">
-                        <img
-                          alt="gallery"
-                          className="block h-full w-full rounded-lg object-cover object-center"
-                          src="photo3.JPG" />
-                      </div>
-                    </div>
-                    <div className="flex w-1/3 flex-wrap">
-                      <div className="w-full p-1 md:p-2">
-                        <img
-                          alt="gallery"
-                          className="block h-full w-full rounded-lg object-cover object-center"
-                          src="photo7.JPG" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="grid justify-center mt-4">
-                  <Link href={'/gallery'} className='text-green-400'>View more photos</Link>
-                </div>
-              </section> */}
               <Tour />
               <section>
                 <h2 className="mb-4 md:mb-12 mt-8 text-center text-5xl md:text-7xl font-bold tracking-tighter leading-tight">

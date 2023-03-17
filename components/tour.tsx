@@ -25,7 +25,7 @@ const callouts = [
     return (
       <div className="bg-gray-100">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl mt-12 pt-4 pb-12 sm:pb-24 lg:max-w-none lg:py-32">
+          <div className="mx-auto max-w-2xl mt-12 pt-4 pb-12 lg:max-w-none lg:py-12">
             <h2 className="font-bold text-gray-900 mt-4 text-center text-5xl mb-4 md:text-7xl">Tour Ghana</h2>
             <h2 className=" text-gray-900 mt-1 text-center text-lg md:text-2xl">We offer <span className="bg-orange-300 rounded-lg px-1">tourism opportunities</span> to people who wishes to explore and experience the historical foundation, sites and the lives of the people of Ghana</h2>
             <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
