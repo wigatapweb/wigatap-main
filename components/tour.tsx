@@ -48,7 +48,7 @@ const callouts = [
             </div>
           </div>
           <div className='flex justify-center pb-12'>
-            <Link className="inline-block px-7 py-3 md:mb-0 mr-0 md:mr-2 bg-green-600 text-white font-medium text-sm leading-snug rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="#!" role="link">Learn more</Link>
+            <Link className="inline-block px-7 py-3 md:mb-0 mr-0 md:mr-2 bg-green-600 text-white font-medium text-sm leading-snug rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out" data-mdb-ripple="true" data-mdb-ripple-color="light" href="/tour_gh" role="link">Learn more</Link>
           </div>
         </div>
       </div>
