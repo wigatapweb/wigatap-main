@@ -1,5 +1,4 @@
 import Layout from "../components/layout"
-import SubmitBtn from "../components/gallery"
 
 const Contact = () => {
     return (
