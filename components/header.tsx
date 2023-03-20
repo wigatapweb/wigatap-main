@@ -18,7 +18,7 @@ function classNames(...classes: string[]) {
 export default function Header() {
   return (
     <Disclosure as="nav" className="bg-white shadow sticky top-0 z-[1000]">
-      {({ open }) => (
+      {({ open }) => (  
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
             <div className="relative flex h-16 items-center justify-between">
@@ -33,7 +33,7 @@ export default function Header() {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex flex-1 items-center justify-end sm:items-stretch sm:justify-between">
+              <div className="flex flex-1 items-center justify-end sm:justify-between">
                 <div className="flex flex-shrink-0 items-center">
                   {/* LOGO */}
                   <a href="/">

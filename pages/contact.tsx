@@ -1,6 +1,20 @@
 import Layout from "../components/layout"
+import { useFormik } from "formik"
+
 
 const Contact = () => {
+    const formik = useFormik({
+      initialValues: {
+        firstName: '',
+        lastName: '',
+        message: ''
+      },
+      onSubmit: values => {
+        alert(JSON.stringify(values, null, 2))
+        window.location.reload()
+      }
+    })
+  
     return (
       <Layout>
       <section className="mb-4">
@@ -16,15 +30,27 @@ const Contact = () => {
             <div className="lg:mb-0">
               <div className="block rounded-lg shadow-lg bg-white px-6 py-12 md:px-12">
 
-                <form>
+                <form onSubmit={formik.handleSubmit}>
                   <div className="grid md:grid-cols-2 md:gap-6">
                     <div className="mb-6">
-                      <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none" placeholder="First name"/>
+                      <input 
+                      id="firstName"
+                      name="firstName"
+                      onChange={formik.handleChange}
+                      value={formik.values.firstName}
+                      type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none" placeholder="First name"/>
                     </div>
                     <div className="mb-6">
-                      <input type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none" placeholder="Last name"/>
+                      <input 
+                      id="lastName"
+                      name="lastName"
+                      onChange={formik.handleChange}
+                      value={formik.values.lastName}
+                      type="text" className="form-control block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none" placeholder="Last name"/>
                     </div>
                     <textarea
+                      onChange={formik.handleChange}
+                      value={formik.values.message}
                       className="
                         lg:w-full
                         form-control
@@ -44,12 +70,12 @@ const Contact = () => {
                         m-0
                         focus:text-gray-700 focus:bg-white focus:border-green-600 focus:outline-none
                       "
-                      id="exampleFormControlTextarea13"
+                      id="message"
                       placeholder="Message"
                       >
                     </textarea>
                   </div>
-                  <button type="button" data-mdb-ripple="true" data-mdb-ripple-color="light" className="inline-block px-6 py-2.5 mb-6 w-full bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out">Send</button>
+                  <button type="submit" data-mdb-ripple="true" data-mdb-ripple-color="light" className="inline-block px-6 py-2.5 mb-6 w-full bg-green-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-green-700 hover:shadow-lg focus:bg-green-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-green-800 active:shadow-lg transition duration-150 ease-in-out">Send</button>
                 </form>
               </div>
             </div>
