@@ -25,9 +25,6 @@ const About = () => {
           One of the key ways that the foundation is working towards this goal is by supplying exercise books and other critical educational materials to students in underserved communities. By providing these resources, the foundation hopes to not only support academic achievement but also encourage children to pursue their passions and interests. Through this work, the foundation aims to promote a culture of lifelong learning and personal growth, where children can explore their talents and develop the skills they need to succeed in life.
           </p>
       </div>
-      <div>
-        <img src="/morePhotos/prophet-ministry-logo.jpg" className="w-full h-auto" alt="" />
-      </div>
     </Layout>
   )
 }

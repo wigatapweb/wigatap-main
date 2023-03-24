@@ -10,7 +10,7 @@ const Contact = () => {
         message: ''
       },
       onSubmit: values => {
-        alert(JSON.stringify(values, null, 2))
+        // alert(JSON.stringify(values, null, 2))
         window.location.reload()
       }
     })
